@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "535209495686",
+    "project_id": "garden-in-the-room",
+    "storage_bucket": "garden-in-the-room.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:535209495686:android:91bb92cb5050a9e4f45507",
+        "android_client_info": {
+          "package_name": "com.example.garden"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "535209495686-6ee6btnamqj9n62moddia927287hdpjg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-Ik2ML28BD-iJD9yU0st6jYlUXXfICTM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "535209495686-6ee6btnamqj9n62moddia927287hdpjg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
