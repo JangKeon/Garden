@@ -46,7 +46,6 @@ public class LoginActivity extends AppCompatActivity {
         System.exit(1);
     }
     View.OnClickListener onClickListener= (v)->{
-
         switch(v.getId()){
             case R.id.btn_login:
                 Log.e("login","로그인 클릭");
