@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         switch(v.getId()){
             case R.id.btn_logout:
                 signOut();
-                setContentView(R.layout.activity_login);
+                startMyActivity(LoginActivity.class);
         }
 
     };
