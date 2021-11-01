@@ -1,4 +1,4 @@
 # Garden in my Room
---------------- Kusitsms 24th gen ------------------
+>-------------- Kusitsms 24th generation ------------------
 
-Help people to Planterior(Plant + Interior)
+>Mobile Application that helps people to Planterior(Plant + Interior)
