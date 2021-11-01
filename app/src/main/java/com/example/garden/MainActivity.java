@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        // test
         setContentView(R.layout.activity_main);
         findViewById(R.id.btn_logout).setOnClickListener(onClickListener);
         // 로그인 된 상태가 아니라면
