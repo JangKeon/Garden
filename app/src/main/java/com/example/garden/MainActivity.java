@@ -14,11 +14,15 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.common.SignInButton;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.navigation.NavigationBarView;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
@@ -26,15 +30,54 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.messaging.FirebaseMessaging;
 
 public class MainActivity extends AppCompatActivity {
+
+    private BottomNavigationView bottomNavigationView;
+    private FragmentManager fm;
+    private FragmentTransaction ft;
+    private HomeFragment homeFragment;
+    private StoreFragment storeFragment;
+    private FeedFragment feedFragment;
+    private GPSFragment gpsFragment;
+    private MyPageFragment myPageFragment;
+
     private DrawerLayout mDrawerLayout;
     private Context context = this;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        findViewById(R.id.btn_logout).setOnClickListener(onClickListener);
-
+        bottomNavigationView = findViewById(R.id.bottomNavi);
+        bottomNavigationView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                switch (item.getItemId()){
+                    case R.id.action_home:
+                        setFrag(0);
+                        break;
+                    case R.id.action_store:
+                        setFrag(1);
+                        break;
+                    case R.id.action_feed:
+                        setFrag(2);
+                        break;
+                    case R.id.action_gps:
+                        setFrag(3);
+                        break;
+                    case R.id.action_myPage:
+                        setFrag(4);
+                        break;
+                }
+                return true;
+            }
+        });
+        homeFragment = new HomeFragment();
+        storeFragment = new StoreFragment();
+        feedFragment = new FeedFragment();
+        gpsFragment = new GPSFragment();
+        myPageFragment = new MyPageFragment();
+        setFrag(0);
 
         // Drawer 구현
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -90,15 +133,6 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    View.OnClickListener onClickListener= (v)->{
-        switch(v.getId()){
-            case R.id.btn_logout:
-                signOut();
-                startMyActivity(LoginActivity.class);
-        }
-
-    };
-
     private void signOut() {
         FirebaseAuth.getInstance().signOut();
     }
@@ -131,6 +165,34 @@ public class MainActivity extends AppCompatActivity {
     private void startMyActivity(Class c) {
         Intent intent = new Intent(this, c);
         startActivity(intent);
+    }
+
+    private void setFrag(int n){
+        fm = getSupportFragmentManager();
+        ft = fm.beginTransaction();
+        switch (n){
+            case 0:
+                ft.replace(R.id.main_frame, homeFragment);
+                ft.commit();
+                break;
+            case 1:
+                ft.replace(R.id.main_frame, storeFragment);
+                ft.commit();
+                break;
+            case 2:
+                ft.replace(R.id.main_frame, feedFragment);
+                ft.commit();
+                break;
+            case 3:
+                ft.replace(R.id.main_frame, gpsFragment);
+                ft.commit();
+                break;
+            case 4:
+                ft.replace(R.id.main_frame, myPageFragment);
+                ft.commit();
+                break;
+        }
+
     }
 }
 
