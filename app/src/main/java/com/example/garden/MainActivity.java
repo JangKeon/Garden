@@ -1,4 +1,6 @@
 package com.example.garden;
+import android.Manifest;
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -7,6 +9,7 @@ import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.common.SignInButton;
@@ -22,9 +25,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        // test
         setContentView(R.layout.activity_main);
         findViewById(R.id.btn_logout).setOnClickListener(onClickListener);
+        ActivityCompat.requestPermissions(this, new String[]{(Manifest.permission.READ_EXTERNAL_STORAGE)},1);
         // 로그인 된 상태가 아니라면
         if (FirebaseAuth.getInstance().getCurrentUser() == null) {
             startMyActivity(LoginActivity.class);
