@@ -37,11 +37,13 @@
         <FrameLayout
             android:id="@+id/main_frame"
             android:layout_width="match_parent"
-            android:layout_height="630dp"
+            android:layout_height="675dp"
             app:layout_constraintBottom_toTopOf="@+id/bottomNavi"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/toolbar">
+            app:layout_constraintTop_toTopOf="@+id/toolbar"
+            app:layout_constraintVertical_bias="0.0">
 
         </FrameLayout>
 
@@ -57,6 +59,8 @@
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/navi_header"
         app:menu="@menu/navi_menu" />
+
+
 
 </androidx.drawerlayout.widget.DrawerLayout>
 

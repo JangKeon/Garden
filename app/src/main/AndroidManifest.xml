@@ -23,6 +23,7 @@
         </activity>
         <activity android:name=".SignUpActivity" />
         <activity android:name=".LoginActivity" />
+        <activity android:name=".LivingRoomActivity" android:label="거실클릭용"/>
         <service
             android:name=".pushNoti.FCMservice"
             android:exported="false">

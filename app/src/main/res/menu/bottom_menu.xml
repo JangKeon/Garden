@@ -5,24 +5,25 @@
         android:enabled="true"
         android:icon="@drawable/ic_baseline_home_24"
         android:title="홈" />
-    <item
-        android:id="@+id/action_store"
-        android:enabled="true"
-        android:icon="@drawable/ic_baseline_storefront_24"
-        android:title="스토어" />
+
     <item
         android:id="@+id/action_feed"
         android:enabled="true"
-        android:icon="@drawable/ic_baseline_photo_library_24"
+        android:icon="@drawable/ic_baseline_remove_red_eye_24"
         android:title="피드" />
     <item
         android:id="@+id/action_gps"
         android:enabled="true"
         android:icon="@drawable/ic_baseline_gps_fixed_24"
-        android:title="GPS" />
+        android:title="가게 찾기" />
+    <item
+        android:id="@+id/action_store"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_shopping_basket_24"
+        android:title="스토어" />
     <item
         android:id="@+id/action_myPage"
         android:enabled="true"
         android:icon="@drawable/ic_baseline_person_24"
-        android:title="마이페이지" />
+        android:title="내 정원" />
 </menu>
