@@ -27,6 +27,9 @@
         <activity android:name=".SignUpActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".LivingRoomActivity" android:label="거실클릭용"/>
+        <activity android:name=".Category1Activity" android:label="카테고리 1 클릭용"/>
+        <activity android:name=".Product1Activity" android:label="상품 1 클릭용"/>
+
         <service
             android:name=".pushNoti.FCMservice"
             android:exported="false">

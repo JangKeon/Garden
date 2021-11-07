@@ -1,19 +1,196 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="스토어화면"
-        android:textColor="@color/black"
-        android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/logo1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/logo" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp">
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/viewPager_adbanner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal" />
+
+            <me.relex.circleindicator.CircleIndicator3
+                android:id="@+id/indicator"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="bottom"/>
+
+        </FrameLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:padding="5dp"
+                android:src="@drawable/ic_arrow_forward"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:gravity="center_vertical"
+                android:text="원하는 식물을 찾아보세요"/>
+
+        </LinearLayout>
+
+        <GridLayout
+            android:layout_width="360dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:columnCount="4"
+            android:orientation="horizontal"
+            android:rowCount="2"
+            android:layout_margin="10dp">
+
+            <ImageButton
+                android:id="@+id/category1"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_category0" />
+
+
+            <ImageButton
+                android:id="@+id/category2"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_category1" />
+
+            <ImageButton
+                android:id="@+id/category3"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_category2" />
+
+            <ImageButton
+                android:id="@+id/category4"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_category3" />
+
+            <ImageButton
+                android:id="@+id/category5"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_category4" />
+
+            <ImageButton
+                android:id="@+id/category6"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_category5" />
+
+            <ImageButton
+                android:id="@+id/category7"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_category6" />
+
+            <ImageButton
+                android:id="@+id/category8"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_category7" />
+        </GridLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:text="최근 본 상품"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:text="내가 본 상품의 연관상품"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:text="인기상품"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
