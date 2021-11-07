@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingVertical="15dp"
+            android:text="공간별 플랜테리어 보기"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/btnLivingRoom"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/logo"
+                tools:ignore="SpeakableTextPresentCheck" />
+            <ImageButton
+                android:id="@+id/btnBedRoom"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:scaleType="centerCrop"
+                android:padding="0sp"
+                android:src="@drawable/logo"
+                tools:ignore="SpeakableTextPresentCheck"/>
+            <ImageButton
+                android:id="@+id/btnBathRoom"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:scaleType="centerCrop"
+                android:padding="0sp"
+                android:src="@drawable/logo"
+                tools:ignore="SpeakableTextPresentCheck"/>
+            <ImageButton
+                android:id="@+id/btnKitchen"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:scaleType="centerCrop"
+                android:padding="0sp"
+                android:src="@drawable/logo"
+                tools:ignore="SpeakableTextPresentCheck"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/btnVeranda"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:scaleType="centerCrop"
+                android:padding="0sp"
+                android:src="@drawable/logo"
+                tools:ignore="SpeakableTextPresentCheck"/>
+            <ImageButton
+                android:id="@+id/btnStudyRoom"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:scaleType="centerCrop"
+                android:padding="0sp"
+                android:src="@drawable/logo"
+                tools:ignore="SpeakableTextPresentCheck"/>
+            <ImageButton
+                android:id="@+id/btnWorkPlace"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:scaleType="centerCrop"
+                android:padding="0sp"
+                android:src="@drawable/logo"
+                tools:ignore="SpeakableTextPresentCheck"/>
+            <ImageButton
+                android:id="@+id/btnCommercialSpace"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:scaleType="centerCrop"
+                android:padding="0sp"
+                android:src="@drawable/logo"
+                tools:ignore="SpeakableTextPresentCheck"/>
+
+        </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_marginVertical="15dp"
+        android:src="@drawable/commercial"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="15dp"
+            android:paddingLeft="15dp"
+            android:text="다양한 정원들을 둘러보세요."
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/post1"
+                android:layout_width="185dp"
+                android:layout_height="260dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/feed1"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:layout_marginRight="5dp"/>
+            <ImageButton
+                android:layout_width="185dp"
+                android:layout_height="260dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/feed2"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingBottom="15dp">
+
+            <ImageButton
+                android:layout_width="185dp"
+                android:layout_height="260dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/feed4"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:layout_marginRight="5dp"/>
+            <ImageButton
+                android:layout_width="185dp"
+                android:layout_height="260dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/feed3"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+

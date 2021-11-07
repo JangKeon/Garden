@@ -15,6 +15,22 @@
         <entry key="app/src/main/res/layout/activity_comment.xml" value="0.1" />
         <entry key="app/src/main/res/layout/feed.xml" value="0.19784724099425555" />
         <entry key="app/src/main/res/layout/fragment_feed.xml" value="0.3074456742036546" />
+        <entry key="..\:/Users/tjdbs/Garden/app/src/main/res/drawable/edt_border.xml" value="0.3" />
+        <entry key="..\:/Users/tjdbs/Garden/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.3" />
+        <entry key="..\:/Users/tjdbs/Garden/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.3" />
+        <entry key="..\:/Users/tjdbs/Garden/app/src/main/res/layout/activity_login.xml" value="0.17603850050658562" />
+        <entry key="..\:/Users/tjdbs/Garden/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/tjdbs/Garden/app/src/main/res/layout/appbar.xml" value="0.17603850050658562" />
+        <entry key="..\:/Users/tjdbs/Garden/app/src/main/res/layout/feed_frag.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/tjdbs/Garden/app/src/main/res/layout/gps_frag.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/tjdbs/Garden/app/src/main/res/layout/home_frag.xml" value="0.33" />
+        <entry key="..\:/Users/tjdbs/Garden/app/src/main/res/layout/home_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/tjdbs/Garden/app/src/main/res/layout/living_room.xml" value="0.30833333333333335" />
+        <entry key="..\:/Users/tjdbs/Garden/app/src/main/res/layout/mypage_frag.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/tjdbs/Garden/app/src/main/res/layout/store_frag.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/tjdbs/Garden/app/src/main/res/layout/store_fragment.xml" value="0.33" />
+        <entry key="..\:/Users/tjdbs/Garden/app/src/main/res/menu/action_bar.xml" value="0.1" />
+        <entry key="..\:/Users/tjdbs/Garden/app/src/main/res/menu/bottom_menu.xml" value="0.19074074074074074" />
       </map>
     </option>
   </component>
