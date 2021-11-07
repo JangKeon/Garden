@@ -12,6 +12,34 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageButton
+                android:id="@+id/logo_menu"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="15dp"
+                android:background="@color/white"
+                android:scaleType="fitCenter"
+                android:src="@drawable/app_logo"
+                tools:ignore="SpeakableTextPresentCheck" />
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_margin="15dp"
+                android:padding="10dp"
+                android:background="#E4E4E4"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray"
+                android:hint="공기정화 식물을 검색해보세요"
+                android:textSize="14dp"/>
+
+        </LinearLayout>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
