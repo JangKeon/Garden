@@ -17,6 +17,7 @@
         <entry key="..\:/Users/keon/AndroidStudioProjects/Garden_See/app/src/main/res/drawable/edt_border.xml" value="0.18645833333333334" />
         <entry key="..\:/Users/keon/AndroidStudioProjects/Garden_See/app/src/main/res/layout/activity_main.xml" value="0.128" />
         <entry key="..\:/Users/keon/AndroidStudioProjects/Garden_See/app/src/main/res/layout/app_bar_main.xml" value="0.1703125" />
+        <entry key="..\:/Users/keon/AndroidStudioProjects/Garden_See/app/src/main/res/layout/category1.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/keon/AndroidStudioProjects/Garden_See/app/src/main/res/layout/drawer_header.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/keon/AndroidStudioProjects/Garden_See/app/src/main/res/layout/feed_frag.xml" value="0.19375" />
         <entry key="..\:/Users/keon/AndroidStudioProjects/Garden_See/app/src/main/res/layout/fragment_feed.xml" value="0.19375" />
@@ -26,6 +27,7 @@
         <entry key="..\:/Users/keon/AndroidStudioProjects/Garden_See/app/src/main/res/layout/product1.xml" value="0.125" />
         <entry key="..\:/Users/keon/AndroidStudioProjects/Garden_See/app/src/main/res/layout/store_frag.xml" value="0.125" />
         <entry key="..\:/Users/keon/AndroidStudioProjects/Garden_See/app/src/main/res/menu/bottom_menu.xml" value="0.1296875" />
+        <entry key="..\:/Users/keon/AndroidStudioProjects/Garden_See/app/src/main/res/menu/drawer_menu.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/keon/AndroidStudioProjects/Garden_See/app/src/main/res/menu/navi_menu.xml" value="0.1296875" />
       </map>
     </option>
