@@ -4,9 +4,13 @@
     android:layout_height="match_parent"
     android:background="@color/white">
 
-    <ImageView
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="400dp"
-        android:src="@drawable/temp_product_info" />
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="장바구니"/>
 
 </LinearLayout>
