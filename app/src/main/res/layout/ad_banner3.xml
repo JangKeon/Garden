@@ -8,6 +8,7 @@
     <ImageView
         android:layout_width="400dp"
         android:layout_height="200dp"
-        android:src="@drawable/ad_banner" />
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_ad_banner3" />
 
 </LinearLayout>

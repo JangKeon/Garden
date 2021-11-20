@@ -30,6 +30,7 @@
         <activity android:name=".HomePostActivity" android:label="홈화면에서 post 클릭용"/>
         <activity android:name=".Category1Activity" android:label="카테고리 1 클릭용"/>
         <activity android:name=".Product1Activity" android:label="상품 1 클릭용"/>
+        <activity android:name=".ShoppingCartActivity" android:label="장바구니"/>
 
         <service
             android:name=".pushNoti.FCMservice"
