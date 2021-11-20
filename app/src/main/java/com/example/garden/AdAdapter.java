@@ -7,7 +7,7 @@ import androidx.viewpager2.adapter.FragmentStateAdapter;
 
 public class AdAdapter extends FragmentStateAdapter {
     public int mCount;
-
+   //
     public  AdAdapter(FragmentActivity fa, int count) {
         super(fa);
         mCount = count;
