@@ -46,50 +46,5 @@
         android:orientation="horizontal">
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingBottom="15dp"
-        android:orientation="horizontal"
-        android:padding="20dp"
-        android:gravity="center">
 
-            <ImageButton
-                android:id="@+id/post1"
-                android:layout_width="185dp"
-                android:layout_height="260dp"
-                android:padding="0sp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/feed1"
-                android:layout_marginRight="5dp"/>
-            <ImageButton
-                android:layout_width="185dp"
-                android:layout_height="260dp"
-                android:padding="0sp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/feed2"
-                android:layout_marginLeft="5dp"/>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:paddingBottom="15dp">
-
-            <ImageButton
-                android:layout_width="185dp"
-                android:layout_height="260dp"
-                android:padding="0sp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/feed4"
-                android:layout_marginRight="5dp"/>
-            <ImageButton
-                android:layout_width="185dp"
-                android:layout_height="260dp"
-                android:padding="0sp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/feed3"
-                android:layout_marginLeft="5dp"/>
-    </LinearLayout>
 </LinearLayout>
