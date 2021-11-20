@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingVertical="30dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginHorizontal="30dp"
+            android:text="선호하는\n식물 디자인을 골라보세요"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/gray"
+                android:text="어떤 느낌으로 내 방을\n연출하고 싶으신가요?"
+                android:textSize="15dp"/>
+            <Button
+                android:id="@+id/btnSurvey2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/round"
+                android:text="다음"
+                android:textSize="18dp"
+                android:backgroundTint="#00913A"/>
+        </LinearLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:columnCount="3"
+            android:rowCount="6">
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/ibChecked1"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src=""/>
+                <ImageButton
+                    android:id="@+id/ib1"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:padding="0sp"
+                    android:layout_margin="2dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/survey1" />
+            </FrameLayout>
+
+            <ImageButton
+                android:id="@+id/ib2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="0sp"
+                android:layout_margin="2dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/survey2" />
+            <ImageButton
+                android:id="@+id/ib3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="0sp"
+                android:layout_margin="2dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/survey3" />
+            <ImageButton
+                android:id="@+id/ib4"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="0sp"
+                android:layout_margin="2dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/survey4" />
+            <ImageButton
+                android:id="@+id/ib5"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="0sp"
+                android:layout_margin="2dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/survey5" />
+            <ImageButton
+                android:id="@+id/ib6"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="0sp"
+                android:layout_margin="2dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/survey6" />
+
+
+
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>

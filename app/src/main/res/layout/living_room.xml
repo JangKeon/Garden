@@ -1,13 +1,401 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
     android:orientation="vertical">
 
-    <ImageButton
-        android:id="@+id/btnBack"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:src="@drawable/ic_baseline_arrow_back_24" />
-</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnBack"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:padding="15dp"
+                android:background="@color/white"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="120dp"
+                android:text="거실"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="185dp"
+                android:layout_height="260dp"
+                android:orientation="vertical"
+                android:background="@color/white"
+                android:paddingHorizontal="10dp">
+
+                <ImageButton
+                    android:layout_width="185dp"
+                    android:layout_height="180dp"
+                    android:padding="0sp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/liv1"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:text="거실 분위기를 바꿔주는 대형 식물 모음"
+                    android:textAlignment="textStart"
+                    android:textSize="15dp"
+                    style="?android:attr/borderlessButtonStyle"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="스크랩  "
+                        android:textColor="#707070"
+                        android:textSize="12dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7"
+                        android:textColor="#707070"
+                        android:textSize="12dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:text="조회수  "
+                        android:textColor="#707070"
+                        android:textSize="12dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="17"
+                        android:textColor="#707070"
+                        android:textSize="12dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="185dp"
+                android:layout_height="260dp"
+                android:orientation="vertical"
+                android:background="@color/white"
+                android:paddingHorizontal="10dp">
+
+                <ImageButton
+                    android:layout_width="185dp"
+                    android:layout_height="180dp"
+                    android:padding="0sp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/liv2"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:text="산뜻하게 산세베리아 배치하기"
+                    android:textAlignment="textStart"
+                    android:textSize="15dp"
+                    style="?android:attr/borderlessButtonStyle"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="스크랩  "
+                        android:textColor="#707070"
+                        android:textSize="12dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5"
+                        android:textColor="#707070"
+                        android:textSize="12dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:text="조회수  "
+                        android:textColor="#707070"
+                        android:textSize="12dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="70"
+                        android:textColor="#707070"
+                        android:textSize="12dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="185dp"
+                android:layout_height="260dp"
+                android:orientation="vertical"
+                android:background="@color/white"
+                android:paddingHorizontal="10dp">
+
+                <ImageButton
+                    android:layout_width="185dp"
+                    android:layout_height="180dp"
+                    android:padding="0sp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/liv3"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:text="아늑한 거실에 유니크함 추가하기"
+                    android:textAlignment="textStart"
+                    android:textSize="15dp"
+                    style="?android:attr/borderlessButtonStyle"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="스크랩  "
+                        android:textColor="#707070"
+                        android:textSize="12dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="25"
+                        android:textColor="#707070"
+                        android:textSize="12dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:text="조회수  "
+                        android:textColor="#707070"
+                        android:textSize="12dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="72"
+                        android:textColor="#707070"
+                        android:textSize="12dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="185dp"
+                android:layout_height="260dp"
+                android:orientation="vertical"
+                android:background="@color/white"
+                android:paddingHorizontal="10dp">
+
+                <ImageButton
+                    android:layout_width="185dp"
+                    android:layout_height="180dp"
+                    android:padding="0sp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/liv4"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:text="심플한 거실 인테리어에 어울려요"
+                    android:textAlignment="textStart"
+                    android:textSize="15dp"
+                    style="?android:attr/borderlessButtonStyle"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="스크랩  "
+                        android:textColor="#707070"
+                        android:textSize="12dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="45"
+                        android:textColor="#707070"
+                        android:textSize="12dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:text="조회수  "
+                        android:textColor="#707070"
+                        android:textSize="12dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="170"
+                        android:textColor="#707070"
+                        android:textSize="12dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="185dp"
+                android:layout_height="260dp"
+                android:orientation="vertical"
+                android:background="@color/white"
+                android:paddingHorizontal="10dp">
+
+                <ImageButton
+                    android:layout_width="185dp"
+                    android:layout_height="180dp"
+                    android:padding="0sp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/liv5"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:text="내 공간에 자연스럽게 연두색 추가하기"
+                    android:textAlignment="textStart"
+                    android:textSize="15dp"
+                    style="?android:attr/borderlessButtonStyle"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="스크랩  "
+                        android:textColor="#707070"
+                        android:textSize="12dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="45"
+                        android:textColor="#707070"
+                        android:textSize="12dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:text="조회수  "
+                        android:textColor="#707070"
+                        android:textSize="12dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="170"
+                        android:textColor="#707070"
+                        android:textSize="12dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="185dp"
+                android:layout_height="260dp"
+                android:orientation="vertical"
+                android:background="@color/white"
+                android:paddingHorizontal="10dp">
+
+                <ImageButton
+                    android:layout_width="185dp"
+                    android:layout_height="180dp"
+                    android:padding="0sp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/liv6"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:text="과한듯 과하지 않은 플랜테리어, 보여드릴게요"
+                    android:textAlignment="textStart"
+                    android:textSize="15dp"
+                    style="?android:attr/borderlessButtonStyle"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="스크랩  "
+                        android:textColor="#707070"
+                        android:textSize="12dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="40"
+                        android:textColor="#707070"
+                        android:textSize="12dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:text="조회수  "
+                        android:textColor="#707070"
+                        android:textSize="12dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="100"
+                        android:textColor="#707070"
+                        android:textSize="12dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
