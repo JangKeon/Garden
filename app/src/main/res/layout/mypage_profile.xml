@@ -2,7 +2,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:background="@color/white">
 
@@ -24,28 +23,7 @@
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
 
-<<<<<<< HEAD
-        <Button
-            android:id="@+id/btn_logout_mypage"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="236dp"
-            android:background="@drawable/signbtn_bg2"
-            android:freezesText="false"
-            android:gravity="center"
-            android:text="로그아웃"
-            android:textAllCaps="false"
-            android:textColor="#FFFFFF"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.51"
-            app:layout_constraintStart_toStartOf="parent" />
-    </LinearLayout>
-=======
                 android:src="@drawable/img_profile1" />
->>>>>>> bd5c0f19b58c645c42c06a01d37e0493ebcf9c33
 
             <ImageView
                 android:layout_width="wrap_content"
