@@ -51,23 +51,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        // Toolbar 셋팅
-        Toolbar toolbar = findViewById(R.id.toolBar);
-        setSupportActionBar(toolbar);
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.setDisplayShowTitleEnabled(false); // 기존 title 지우기
-        actionBar.setDisplayHomeAsUpEnabled(true); // 뒤로가기 버튼 만들기
-        actionBar.setHomeAsUpIndicator(R.drawable.drawer_menu); //뒤로가기 버튼 이미지 지정
 
-        // DrawerLayout 셋팅
-        mDrawerLayout = findViewById(R.id.drawer_layout);
-        mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout, toolbar, R.string.open, R.string.close);
-        mDrawerLayout.addDrawerListener(mDrawerToggle);
-        mDrawerToggle.syncState();
-
-        // 메뉴틀릭시 이벤트 셋팅
-        NavigationView navigationView = findViewById(R.id.nav_view);
-        navigationView.setNavigationItemSelectedListener(this);
         bottomNavigationView = findViewById(R.id.bottomNavi);
         bottomNavigationView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
@@ -98,9 +82,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         gpsFragment = new GPSFragment();
         myPageFragment = new MyPageFragment();
         setFrag(0);
-
-
-
 
 
         // 로그인 된 상태가 아니라면
@@ -193,22 +174,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     }
 
+
     @Override
-    public boolean onNavigationItemSelected(MenuItem menuItem) {
-        menuItem.setChecked(true);
-        mDrawerLayout.closeDrawers();
-
-        int id = menuItem.getItemId();
-        String title = menuItem.getTitle().toString();
-
-        if(id == R.id.history){
-            Toast.makeText(context, title + ": 계정 정보를 확인합니다.", Toast.LENGTH_SHORT).show();
-        }
-        else if(id == R.id.logout){
-            Toast.makeText(context, title + " Success!", Toast.LENGTH_SHORT).show();
-            signOut();
-            startMyActivity(LoginActivity.class);
-        }
-        return true;
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        return false;
     }
 }
