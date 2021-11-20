@@ -11,17 +11,19 @@
         android:id="@+id/btn_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="168dp"
-        android:background="@drawable/signbtn_bg"
+        android:layout_marginBottom="236dp"
+        android:background="@drawable/signbtn_bg2"
         android:freezesText="false"
-        android:text="Login"
-        android:gravity = "center"
+        android:gravity="center"
+        android:text="로그인"
+
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
@@ -64,7 +66,7 @@
         android:id="@+id/text_forgotPW"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="24dp"
         android:clickable="true"
         android:text="Reset Password"
@@ -72,6 +74,17 @@
         android:textSize="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edit_password" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="22dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="324dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/login_checkbox" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -103,7 +116,7 @@
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="340dp"
+        android:layout_marginBottom="328dp"
         android:text="자동 로그인"
         android:textColor="#373636"
         android:textStyle="bold"
@@ -111,16 +124,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.163"
         app:layout_constraintStart_toStartOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="22dp"
-        android:layout_height="25dp"
-        android:layout_marginBottom="336dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.061"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/login_checkbox" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
