@@ -9,8 +9,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-public class MyPage_profile extends Fragment {
-/*    private View view;
+public class Product2_info extends Fragment {
+    private View view;
 
     public void onCreate(Bundle savedInstanceState)
     {super.onCreate(savedInstanceState);}
@@ -18,16 +18,8 @@ public class MyPage_profile extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        view=inflater.inflate(R.layout.mypage_profile,container, false);
+        view=inflater.inflate(R.layout.product2_info_frag,container, false);
 
         return view;
-    }*/
-
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle saveInstanceState){
-        ViewGroup rootView = (ViewGroup) inflater.inflate(
-                R.layout.mypage_profile,container,false);
-
-        return rootView;
     }
 }

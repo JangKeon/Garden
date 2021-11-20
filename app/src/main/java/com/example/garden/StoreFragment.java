@@ -74,7 +74,7 @@ public class StoreFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         //setHasOptionsMenu(true);
 
-        btnCategory1= view.findViewById(R.id.category1);
+        btnCategory1= view.findViewById(R.id.category3);
 
         btnCategory1.setOnClickListener(new View.OnClickListener() {
             @Override

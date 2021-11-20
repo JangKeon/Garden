@@ -14,7 +14,14 @@ public class Category1Activity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.category1);
 
-
+        ImageButton btnProduct = findViewById(R.id.product1);
+        btnProduct.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), Product1Activity.class);
+                startActivity(intent);
+            }
+        });
 
         ImageButton btnBack = findViewById(R.id.btnBack);
         btnBack.setOnClickListener(new View.OnClickListener() {
