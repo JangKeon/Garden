@@ -3,19 +3,28 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/drawable-v24/inputtext_bg.xml" value="0.13177083333333334" />
+        <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/drawable-v24/signbtn_bg.xml" value="0.13177083333333334" />
+        <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/drawable/edt_border.xml" value="0.13177083333333334" />
+        <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.13177083333333334" />
+        <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/drawable/ic_baseline_gps_fixed_24.xml" value="0.13177083333333334" />
+        <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.13177083333333334" />
+        <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.13177083333333334" />
+        <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/drawable/img_shape.xml" value="0.13177083333333334" />
+        <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/layout/activity_login.xml" value="0.15729166666666666" />
         <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/layout/activity_main.xml" value="0.2890625" />
         <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/layout/activity_shopping_cart.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/layout/ad_banner1.xml" value="0.35052083333333334" />
         <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/layout/ad_banner2.xml" value="0.2046875" />
         <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/layout/ad_banner3.xml" value="0.2046875" />
         <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/layout/ad_banner4.xml" value="0.2046875" />
-        <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/layout/category1.xml" value="0.2" />
+        <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/layout/category1.xml" value="0.45501730103806226" />
         <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/layout/feed_frag.xml" value="0.23802083333333332" />
         <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/layout/home_frag.xml" value="0.23802083333333332" />
         <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/layout/living_room.xml" value="0.2046875" />
         <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/layout/mypage_frag.xml" value="0.23802083333333332" />
-        <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/layout/mypage_myshopping.xml" value="0.1296875" />
-        <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/layout/mypage_profile.xml" value="0.1296875" />
+        <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/layout/mypage_myshopping.xml" value="0.4" />
+        <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/layout/mypage_profile.xml" value="0.2" />
         <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/layout/navi_header.xml" value="0.146875" />
         <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/layout/product1.xml" value="0.176" />
         <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/layout/product1_info.xml" value="0.25364583333333335" />
@@ -24,20 +33,13 @@
         <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/layout/product1_inquiry_frag.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/layout/product1_review.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/layout/product1_review_frag.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/layout/product2.xml" value="0.128125" />
+        <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/layout/product2_info_frag.xml" value="0.115625" />
+        <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/layout/product2_inquiry_frag.xml" value="0.115625" />
+        <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/layout/product2_review_frag.xml" value="0.115625" />
         <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/layout/shoppingcart_delivery_frag.xml" value="0.2" />
         <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/layout/shoppingcart_pickup_frag.xml" value="0.2" />
         <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/layout/store_frag.xml" value="0.24034749034749034" />
-
-        <entry key="..\:/Users/keon/AndroidStudioProjects/Garden/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.26979166666666665" />
-        <entry key="..\:/Users/keon/AndroidStudioProjects/Garden/app/src/main/res/drawable-v24/inputtext_bg.xml" value="0.26979166666666665" />
-        <entry key="..\:/Users/keon/AndroidStudioProjects/Garden/app/src/main/res/drawable-v24/signbtn_bg.xml" value="0.28229166666666666" />
-        <entry key="..\:/Users/keon/AndroidStudioProjects/Garden/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26979166666666665" />
-        <entry key="..\:/Users/keon/AndroidStudioProjects/Garden/app/src/main/res/drawable/img_shape.xml" value="0.109375" />
-        <entry key="..\:/Users/keon/AndroidStudioProjects/Garden/app/src/main/res/layout/activity_login.xml" value="0.152" />
-        <entry key="..\:/Users/keon/AndroidStudioProjects/Garden/app/src/main/res/layout/activity_main.xml" value="0.2390625" />
-        <entry key="..\:/Users/keon/AndroidStudioProjects/Garden/app/src/main/res/layout/activity_sign_up.xml" value="0.176" />
-        <entry key="..\:/Users/keon/AndroidStudioProjects/Garden/app/src/main/res/layout/activity_signup.xml" value="0.25364583333333335" />
-
         <entry key="..\:/Users/keon/AndroidStudioProjects/Garden/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.26979166666666665" />
         <entry key="..\:/Users/keon/AndroidStudioProjects/Garden/app/src/main/res/drawable-v24/inputtext_bg.xml" value="0.26979166666666665" />
         <entry key="..\:/Users/keon/AndroidStudioProjects/Garden/app/src/main/res/drawable-v24/signbtn_bg.xml" value="0.28229166666666666" />

@@ -23,8 +23,8 @@ public class MyPageFragment extends Fragment {
         TabLayout tL;
         ViewPager vP;
 
-        tL = (TabLayout) getView().findViewById(R.id.my_tab);
-        vP = (ViewPager) getView().findViewById(R.id.my_view);
+        tL = (TabLayout) view.findViewById(R.id.my_tab);
+        vP = (ViewPager) view.findViewById(R.id.my_view);
 
         tL.addTab(tL.newTab().setText("프로필"));
         tL.addTab(tL.newTab().setText("나의 쇼핑"));

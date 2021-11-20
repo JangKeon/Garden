@@ -14,7 +14,7 @@ public class Category1Activity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.category1);
 
-        ImageButton btnProduct = findViewById(R.id.post1);
+        ImageButton btnProduct = findViewById(R.id.product1);
         btnProduct.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
