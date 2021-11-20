@@ -39,8 +39,9 @@
         <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/layout/product2_review_frag.xml" value="0.115625" />
         <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/layout/shoppingcart_delivery_frag.xml" value="0.2" />
         <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/layout/shoppingcart_pickup_frag.xml" value="0.2" />
-          <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/layout/store_frag.xml" value="0.24034749034749034" />
-
+        <entry key="..\:/Users/hayoon/AndroidStudioProjects/Garden/app/src/main/res/layout/store_frag.xml" value="0.24034749034749034" />
+        <entry key="..\:/Users/keon/AndroidStudioProjects/Garden/app/src/main/res/layout/activity_login.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/keon/AndroidStudioProjects/Garden/app/src/main/res/layout/home_frag.xml" value="0.21359649122807017" />
         <entry key="..\:/Users/keon/AndroidStudioProjects/Garden/app/src/main/res/layout/navi_header.xml" value="0.1" />
         <entry key="..\:/Users/keon/AndroidStudioProjects/Garden/app/src/main/res/menu/navi_menu.xml" value="0.1" />
         <entry key="..\:/Users/keon/AndroidStudioProjects/Garden_See/app/src/main/res/drawable-v24/signbtn_bg.xml" value="0.22719298245614036" />
@@ -68,12 +69,10 @@
         <entry key="..\:/Users/keon/AndroidStudioProjects/Garden_See/app/src/main/res/menu/bottom_menu.xml" value="0.1296875" />
         <entry key="..\:/Users/keon/AndroidStudioProjects/Garden_See/app/src/main/res/menu/drawer_menu.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/keon/AndroidStudioProjects/Garden_See/app/src/main/res/menu/navi_menu.xml" value="0.1296875" />
-
       </map>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
-
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
