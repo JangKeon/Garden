@@ -73,32 +73,36 @@
         android:layout_width="325dp"
         android:layout_height="56dp"
         android:layout_marginBottom="240dp"
+        android:contentDescription="Naver"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.529"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/naverlogin" />
+        android:src="@drawable/naverlogin" />
 
     <ImageButton
         android:id="@+id/imageButton2"
         android:layout_width="323dp"
         android:layout_height="54dp"
         android:layout_marginBottom="308dp"
+        android:contentDescription="Kakao"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/kakaologin" />
+        android:src="@drawable/kakaologin"
+        />
 
     <ImageButton
         android:id="@+id/imageButton4"
         android:layout_width="325dp"
         android:layout_height="54dp"
         android:layout_marginBottom="172dp"
+        android:contentDescription="Apple"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.529"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/applelogin" />
+        android:src="@drawable/applelogin" />
 
     <TextView
         android:id="@+id/textView2"
@@ -127,7 +131,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/email_login_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="128dp"

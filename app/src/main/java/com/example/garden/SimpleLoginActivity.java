@@ -4,23 +4,30 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+import android.widget.ImageButton;
 
 import androidx.annotation.Nullable;
 
-public class SurveyActivity2 extends Activity {
+public class SimpleLoginActivity extends Activity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.survey2);
+        setContentView(R.layout.simple_login);
+        findViewById(R.id.email_login_text).setOnClickListener(onClickListener);
+    }
 
-        Button btnSurvey2 = findViewById(R.id.btnSurvey2);
-        btnSurvey2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startMainActivity();
-            }
-        });
+    View.OnClickListener onClickListener= (v)-> {
+        switch (v.getId()) {
+            case R.id.email_login_text:
+                startActivity(LoginActivity.class);
+                break;
+
+        }
+    };
+
+    private void startActivity(Class c){
+        Intent intent = new Intent(this,c);
+        startActivity(intent);
     }
 
     private void startMainActivity(){

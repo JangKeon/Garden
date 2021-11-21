@@ -30,6 +30,7 @@
         android:id="@+id/edit_email"
         android:layout_width="346dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="448dp"
         android:background="@drawable/inputtext_bg"
         android:ems="10"
         android:hint="Email Address"
@@ -38,17 +39,16 @@
         android:textColor="#4A4A4A"
         android:textColorHint="#9C9C9C"
         android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.489"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="255dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/edit_password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginBottom="384dp"
         android:background="@drawable/inputtext_bg"
         android:ems="10"
         android:hint="Password"
@@ -57,17 +57,17 @@
         android:textColor="#4A4A4A"
         android:textColorHint="#9C9C9C"
         android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.489"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edit_email" />
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/text_forgotPW"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="24dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="20dp"
         android:clickable="true"
         android:text="아이디/비밀번호 찾기"
         android:textColor="#4A4A4A"

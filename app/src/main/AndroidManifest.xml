@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.garden">
+    package="com.example.garden" >
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -8,7 +12,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.NoActionBar">
+        android:theme="@style/Theme.AppCompat.NoActionBar" >
         <activity
             android:name=".CommentActivity"
             android:exported="true" />
@@ -17,7 +21,7 @@
             android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,25 +30,38 @@
         </activity>
         <activity android:name=".SignUpActivity" />
         <activity android:name=".LoginActivity" />
-        <activity android:name=".SurveyActivity1" android:label="설문조사1"/>
-        <activity android:name=".SurveyActivity2" android:label="설문조사2"/>
-        <activity android:name=".LivingRoomActivity" android:label="거실클릭용"/>
-        <activity android:name=".HomePostActivity" android:label="홈화면에서 post 클릭용"/>
-        <activity android:name=".Category1Activity" android:label="카테고리 1 클릭용"/>
-        <activity android:name=".Product1Activity" android:label="상품 1 클릭용"/>
-        <activity android:name=".ShoppingCartActivity" android:label="장바구니"/>
+        <activity
+            android:name=".SurveyActivity1"
+            android:label="설문조사1" />
+        <activity
+            android:name=".SurveyActivity2"
+            android:label="설문조사2" />
+        <activity
+            android:name=".LivingRoomActivity"
+            android:label="거실클릭용" />
+        <activity
+            android:name=".HomePostActivity"
+            android:label="홈화면에서 post 클릭용" />
+        <activity
+            android:name=".Category1Activity"
+            android:label="카테고리 1 클릭용" />
+        <activity
+            android:name=".SimpleLoginActivity"
+            android:label="Simple Login" />
+        <activity
+            android:name=".Product1Activity"
+            android:label="상품 1 클릭용" />
+        <activity
+            android:name=".ShoppingCartActivity"
+            android:label="장바구니" />
 
         <service
             android:name=".pushNoti.FCMservice"
-            android:exported="false">
+            android:exported="false" >
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
     </application>
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-    <uses-permission android:name="android.permission.INTERNET" />
-
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
 </manifest>
