@@ -6,21 +6,15 @@ import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.FrameLayout;
-import android.widget.ImageView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.google.android.gms.auth.api.signin.GoogleSignInClient;
-import com.google.android.gms.common.SignInButton;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -86,7 +80,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         // 로그인 된 상태가 아니라면
         if (FirebaseAuth.getInstance().getCurrentUser() == null) {
-            startMyActivity(LoginActivity.class);
+            startMyActivity(SimpleLoginActivity.class);
         } else {
             //refreshToken();
         }

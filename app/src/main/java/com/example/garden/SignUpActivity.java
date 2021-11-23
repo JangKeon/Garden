@@ -29,8 +29,7 @@ public class SignUpActivity extends AppCompatActivity {
 
         findViewById(R.id.btn_sendEmail).setOnClickListener(onClickListener);
         findViewById(R.id.text_login).setOnClickListener(onClickListener);
-        findViewById(R.id.checkbox_First).setOnClickListener(onClickListener);
-        findViewById(R.id.checkbox_Second).setOnClickListener(onClickListener);
+
 
 
     }
@@ -48,8 +47,7 @@ public class SignUpActivity extends AppCompatActivity {
     }
 
     View.OnClickListener onClickListener = (v) -> {
-        CheckBox checkBox1 = (CheckBox) findViewById(R.id.checkbox_First);
-        CheckBox checkBox2 = (CheckBox) findViewById(R.id.checkbox_Second);
+
         switch (v.getId()) {
             case R.id.btn_sendEmail:
                 Log.e("Sign Up", "회원가입 클릭");
@@ -58,18 +56,7 @@ public class SignUpActivity extends AppCompatActivity {
             case R.id.text_login:
                 startLoginActivity();
                 break;
-            case R.id.checkbox_Second:
-                if (checkBox1.isChecked()) {
-                    checkBox2.setChecked(false);
-                }
-                identity = "parent";
-                break;
-            case R.id.checkbox_First:
-                if (checkBox2.isChecked()) {
-                    checkBox1.setChecked(false);
-                }
-                identity = "child";
-                break;
+
         }
 
     };

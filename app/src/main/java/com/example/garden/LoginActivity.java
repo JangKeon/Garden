@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -19,6 +20,7 @@ import com.google.firebase.auth.FirebaseUser;
 public class LoginActivity extends AppCompatActivity {
     private static final String TAG="SignUpActivity";
     private FirebaseAuth mAuth;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,6 +47,7 @@ public class LoginActivity extends AppCompatActivity {
         android.os.Process.killProcess(android.os.Process.myPid());
         System.exit(1);
     }
+
     View.OnClickListener onClickListener= (v)->{
         switch(v.getId()){
             case R.id.btn_login:
@@ -75,7 +78,7 @@ public class LoginActivity extends AppCompatActivity {
 
                                 FirebaseUser user = mAuth.getCurrentUser();
                                 startToast("로그인에 성공하였습니다.");
-                                startMainActivity();
+                                startSurveyActivity();
                             } else {
                                 if (task.getException() != null) {
                                     startToast(task.getException().toString());
@@ -96,6 +99,12 @@ public class LoginActivity extends AppCompatActivity {
     }
     private void startMainActivity(){
         Intent intent = new Intent(this,MainActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP); //로그인 상태에서 뒤로가기 했을 때 로그인 창 안나오게
+        startActivity(intent);
+    }
+
+    private void startSurveyActivity(){
+        Intent intent = new Intent(this,SurveyActivity1.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP); //로그인 상태에서 뒤로가기 했을 때 로그인 창 안나오게
         startActivity(intent);
     }

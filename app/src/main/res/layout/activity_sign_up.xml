@@ -10,18 +10,18 @@
         android:id="@+id/btn_sendEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="132dp"
-        android:background="@drawable/signbtn_bg"
+        android:layout_marginBottom="184dp"
+        android:background="@drawable/signbtn_bg2"
         android:freezesText="false"
-        android:text="Sign Up"
         android:gravity="center"
+        android:text="Sign Up"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
-        android:textStyle="bold"
         android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
@@ -80,7 +80,6 @@
         android:id="@+id/edit_nickname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
         android:background="@drawable/inputtext_bg"
         android:ems="10"
         android:hint="Nickname"
@@ -88,10 +87,10 @@
         android:textColor="#4A4A4A"
         android:textColorHint="#9C9C9C"
         android:textSize="14dp"
-        app:layout_constraintBottom_toTopOf="@+id/checkbox_First"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="406dp" />
 
     <TextView
         android:id="@+id/textView6"
@@ -131,35 +130,6 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <CheckBox
-        android:id="@+id/checkbox_First"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="80dp"
-        android:layout_marginLeft="80dp"
-        android:layout_marginBottom="40dp"
-        android:text="First"
-        android:buttonTint="#4A4A4A"
-        android:textColor="#4A4A4A"
-        android:textSize="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/btn_sendEmail"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <CheckBox
-        android:id="@+id/checkbox_Second"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="92dp"
-        android:layout_marginRight="92dp"
-        android:layout_marginBottom="40dp"
-        android:text="Second"
-        android:buttonTint="#4A4A4A"
-        android:textColor="#4A4A4A"
-        android:textSize="20dp"
-
-        app:layout_constraintBottom_toTopOf="@+id/btn_sendEmail"
-        app:layout_constraintEnd_toEndOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
