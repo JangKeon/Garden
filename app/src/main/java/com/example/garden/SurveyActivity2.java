@@ -21,17 +21,15 @@ public class SurveyActivity2 extends Activity {
 
 
         int[] imgId = {R.id.iv1, R.id.iv2, R.id.iv3, R.id.iv4, R.id.iv5, R.id.iv6, R.id.iv7,
-                R.id.iv8, R.id.iv9, R.id.iv10, R.id.iv11, R.id.iv12, R.id.iv13, R.id.iv14,
-                R.id.iv15, R.id.iv16, R.id.iv17, R.id.iv18 };
-        for(int i=0; i<18;i++){
+                R.id.iv8, R.id.iv9, R.id.iv10, R.id.iv11, R.id.iv12};
+        for(int i=0; i<12;i++){
             imageViews[i] = (ImageView) findViewById(imgId[i]);
             imageViews[i].setVisibility(View.INVISIBLE);
         }
 
         int[] btnId = {R.id.ib1, R.id.ib2, R.id.ib3, R.id.ib4, R.id.ib5, R.id.ib6, R.id.ib7,
-                R.id.ib8, R.id.ib9, R.id.ib10, R.id.ib11, R.id.ib12, R.id.ib13, R.id.ib14,
-                R.id.ib15, R.id.ib16, R.id.ib17, R.id.ib18 };
-        for(int i=0; i<18;i++){
+                R.id.ib8, R.id.ib9, R.id.ib10, R.id.ib11, R.id.ib12};
+        for(int i=0; i<12;i++){
             imageButtons[i] = (ImageButton) findViewById(btnId[i]);
             imageButtons[i].setOnClickListener(btnListener);
         }

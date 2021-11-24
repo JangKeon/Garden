@@ -29,6 +29,7 @@ public class GPSFragment extends Fragment {
         mapViewContainer.addView(mapView);
 
 
+
         //127.028002, 37.4945470
         MapPoint mapPoint = MapPoint.mapPointWithGeoCoord(37.4945470,127.028002);
 
