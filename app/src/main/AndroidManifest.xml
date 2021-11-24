@@ -12,11 +12,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.NoActionBar"
-        android:usesCleartextTraffic="true"
-        android:networkSecurityConfig="@xml/network_security_config">
         android:theme="@style/Theme.AppCompat.NoActionBar" >
-
         <activity
             android:name=".CommentActivity"
             android:exported="true" />
@@ -35,14 +31,30 @@
         <activity android:name=".SignUpActivity" />
         <activity android:name=".SimpleLoginActivity" />
         <activity android:name=".LoginActivity" />
-        <activity android:name=".SurveyActivity1" android:label="설문조사1"/>
-        <activity android:name=".SurveyActivity2" android:label="설문조사2"/>
-        <activity android:name=".LivingRoomActivity" android:label="거실클릭용"/>
-        <activity android:name=".HomePostActivity" android:label="홈화면에서 post 클릭용"/>
-        <activity android:name=".Category1Activity" android:label="카테고리 1 클릭용"/>
-        <activity android:name=".Product1Activity" android:label="상품 1 클릭용"/>
-        <activity android:name=".ShoppingCartActivity" android:label="장바구니"/>
-        <meta-data android:name="com.kakao.sdk.AppKey" android:value="e7bb21237fd2e6a72874f7d1c11735ae"/>
+        <activity
+            android:name=".SurveyActivity1"
+            android:label="설문조사1" />
+        <activity
+            android:name=".SurveyActivity2"
+            android:label="설문조사2" />
+        <activity
+            android:name=".LivingRoomActivity"
+            android:label="거실클릭용" />
+        <activity
+            android:name=".HomePostActivity"
+            android:label="홈화면에서 post 클릭용" />
+        <activity
+            android:name=".Category1Activity"
+            android:label="카테고리 1 클릭용" />
+        <activity
+            android:name=".SimpleLoginActivity"
+            android:label="Simple Login" />
+        <activity
+            android:name=".Product1Activity"
+            android:label="상품 1 클릭용" />
+        <activity
+            android:name=".ShoppingCartActivity"
+            android:label="장바구니" />
 
         <service
             android:name=".pushNoti.FCMservice"
@@ -52,9 +64,5 @@
             </intent-filter>
         </service>
     </application>
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
 </manifest>
