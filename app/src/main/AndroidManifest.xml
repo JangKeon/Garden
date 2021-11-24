@@ -51,7 +51,7 @@
         <activity
             android:name=".Category1Activity"
             android:label="카테고리 1 클릭용" />
-        
+
         <activity
             android:name=".Product1Activity"
             android:label="상품 1 클릭용" />
