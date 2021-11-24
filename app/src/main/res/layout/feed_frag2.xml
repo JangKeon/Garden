@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -14,26 +13,25 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="318dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_weight="1"
-            android:text="피드"
-            android:textAlignment="center"
             android:textColor="@color/black"
-            android:textSize="15dp" />
+            android:textSize="18dp"
+            android:text="피드"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_weight="1" />
 
         <ImageButton
             android:id="@+id/btn_post"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:layout_gravity="right"
-            android:scaleType="fitCenter"
             android:background="@color/white"
+            android:scaleType="fitCenter"
             android:clickable="true"
-            android:foreground="?selectableItemBackground"
-            android:adjustViewBounds="true"
-            android:src="@drawable/postbutton" />
+            android:foreground="@drawable/postbutton"
+            android:src="@drawable/postbutton"/>
     </LinearLayout>
 
 
@@ -48,22 +46,24 @@
             android:orientation="vertical"
             android:paddingRight="20dp"
             android:paddingLeft="20dp"
-            android:paddingTop="5dp"
-            android:paddingBottom="5dp">
+            android:padding="20dp">
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="529dp"
-                android:src="@drawable/feedfirstimage" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="500dp"
+                    android:src="@drawable/feedthirdimage" />
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="529dp"
-                android:src="@drawable/feedsecondimage" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="590dp"
+                    android:src="@drawable/feedfirstimage" />
 
-            </LinearLayout>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="590dp"
+                    android:src="@drawable/feedsecondimage" />
 
-
+        </LinearLayout>
 
     </ScrollView>
 

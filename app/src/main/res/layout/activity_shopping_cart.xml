@@ -14,49 +14,38 @@
         android:orientation="horizontal">
 
         <ImageButton
+            android:id="@+id/btnBack"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_marginRight="10dp"
-            android:background="@android:color/transparent" />
-
-        <ImageButton
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:background="@android:color/transparent" />
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_arrow_back" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
             android:textSize="18dp"
-            android:text="내 정원 "
+            android:text="장바구니"
             android:layout_gravity="center"
             android:textAlignment="center"
             android:layout_weight="1" />
 
         <ImageButton
-            android:id="@+id/btnShoppingCart"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_marginRight="10dp"
-            android:background="@android:color/transparent"
-            android:scaleType="fitCenter"
-            android:src="@drawable/ic_shopping_cart"/>
-
-        <ImageButton
-            android:id="@+id/btnSetting"
+            android:id="@+id/topShoppingCart"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_gravity="right"
             android:background="@android:color/transparent"
-            android:scaleType="centerCrop"
-            android:src="@drawable/ic_setting"/>
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_home_filled"/>
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:orientation="vertical">
 
         <androidx.appcompat.widget.LinearLayoutCompat
@@ -80,5 +69,22 @@
             android:layout_height="match_parent"/>
 
     </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#00913a"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:text="43,900원 결제하기"/>
+
+    </LinearLayout>
+
 
 </LinearLayout>
