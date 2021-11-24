@@ -10,10 +10,10 @@
     >
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".MainActivity">
-
+        android:layout_width="393dp"
+        android:layout_height="781dp"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteY="-25dp">
 
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -29,8 +29,8 @@
 
         <FrameLayout
             android:id="@+id/main_frame"
-            android:layout_width="match_parent"
-            android:layout_height="675dp"
+            android:layout_width="393dp"
+            android:layout_height="700dp"
             app:layout_constraintBottom_toTopOf="@+id/bottomNavi"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
