@@ -35,6 +35,7 @@
         <activity android:name=".SignUpActivity" />
         <activity android:name=".SimpleLoginActivity" />
         <activity android:name=".LoginActivity" />
+        <activity android:name=".SimpleLoginActivity" />
         <activity android:name=".SurveyActivity1" android:label="설문조사1"/>
         <activity android:name=".SurveyActivity2" android:label="설문조사2"/>
         <activity android:name=".LivingRoomActivity" android:label="거실클릭용"/>
