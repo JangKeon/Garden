@@ -107,12 +107,6 @@ public class HomeFragment extends Fragment {
 
 
         //
-        btnTag1 = view.findViewById(R.id.btnTag1);
-        btnTag1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
 
-            }
-        });
     }
 }

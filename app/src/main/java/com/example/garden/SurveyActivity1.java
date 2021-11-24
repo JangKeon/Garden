@@ -19,6 +19,7 @@ public class SurveyActivity1 extends Activity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(SurveyActivity1.this, SurveyActivity2.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(intent);
             }
         });

@@ -5,6 +5,7 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 import androidx.annotation.Nullable;
 
@@ -22,5 +23,8 @@ public class LivingRoomActivity extends Activity {
                 finish();
             }
         });
+
+        //
+
     }
 }
