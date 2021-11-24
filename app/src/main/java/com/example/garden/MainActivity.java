@@ -35,7 +35,6 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.messaging.FirebaseMessaging;
-
 import net.daum.android.map.MapView;
 
 import java.security.MessageDigest;
@@ -57,7 +56,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private Context context = this;
     private View navheader;
     private FrameLayout contentFL;
-    //private MapView mapView;
+    private MapView mapView;
     Boolean isUploaded = false;
 
 //    private void getHashKey(){
@@ -106,9 +105,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         mDrawerLayout.addDrawerListener(mDrawerToggle);
         mDrawerToggle.syncState();
 
-        //mapView = new net.daum.mf.map.api.MapView(this);
-        //ViewGroup mapViewContainer = (ViewGroup) findViewById(R.id.map_view);
-        //mapViewContainer.addView(mapView);
+        mapView = new net.daum.mf.map.api.MapView(this);
+        ViewGroup mapViewContainer = (ViewGroup) findViewById(R.id.map_view);
+        mapViewContainer.addView(mapView);
 
         // 메뉴틀릭시 이벤트 셋팅
         NavigationView navigationView = findViewById(R.id.nav_view);
